@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/youtubemp3/static/css/main.f726b705.chunk.css",
+    "main.js": "/youtubemp3/static/js/main.1ff66611.chunk.js",
+    "main.js.map": "/youtubemp3/static/js/main.1ff66611.chunk.js.map",
+    "runtime-main.js": "/youtubemp3/static/js/runtime-main.7f6dd3f6.js",
+    "runtime-main.js.map": "/youtubemp3/static/js/runtime-main.7f6dd3f6.js.map",
+    "static/js/2.83386273.chunk.js": "/youtubemp3/static/js/2.83386273.chunk.js",
+    "static/js/2.83386273.chunk.js.map": "/youtubemp3/static/js/2.83386273.chunk.js.map",
+    "index.html": "/youtubemp3/index.html",
+    "static/css/main.f726b705.chunk.css.map": "/youtubemp3/static/css/main.f726b705.chunk.css.map",
+    "static/js/2.83386273.chunk.js.LICENSE.txt": "/youtubemp3/static/js/2.83386273.chunk.js.LICENSE.txt",
+    "static/media/browser-chrome.189489ce.svg": "/youtubemp3/static/media/browser-chrome.189489ce.svg",
+    "static/media/browser-firefox.d77f172c.svg": "/youtubemp3/static/media/browser-firefox.d77f172c.svg",
+    "static/media/styles.scss": "/youtubemp3/static/media/connectwork.ce2e9831.png",
+    "static/media/youtube.30f7bb5c.svg": "/youtubemp3/static/media/youtube.30f7bb5c.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.7f6dd3f6.js",
+    "static/js/2.83386273.chunk.js",
+    "static/css/main.f726b705.chunk.css",
+    "static/js/main.1ff66611.chunk.js"
+  ]
+}
