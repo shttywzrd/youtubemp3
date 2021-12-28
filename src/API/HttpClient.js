@@ -8,11 +8,11 @@ export default class HttpClient {
         return response.data;
     }
     static async requestDownload(info) {
-        axios.post("https://109.251.68.32:8080/", {
+        axios.post("http://localhost:8080/", {
             "url": info.url,
             "title": info.title
         }).then(res => {
-            window.location.href = `https://109.251.68.32:8080/download/${res.data.id}`;
+            window.location.href = `http://localhost:8080/download/${res.data.id}`;
         }).catch(err => console.log(err));
     }
 }
