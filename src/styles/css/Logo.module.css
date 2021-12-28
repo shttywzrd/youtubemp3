@@ -1,0 +1,25 @@
+/*====== Colors ======*/
+/*$secondary: rgba(150, 150, 150, 0.7);*/
+/*====== Fonts ======*/
+.logo {
+  margin-top: 0;
+  margin-bottom: auto;
+  text-align: center;
+}
+.logo__text {
+  text-align: center;
+}
+.logo__image {
+  display: block;
+  filter: invert(100%) drop-shadow(0 3px 3px rgba(0, 0, 0, 0.7));
+  -webkit-filter: invert(100%) drop-shadow(0 3px 3px rgba(0, 0, 0, 0.7));
+  width: 20rem;
+  height: 20rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+.logo__image::before {
+  line-height: 20rem;
+}
+
+/*# sourceMappingURL=Logo.module.css.map */

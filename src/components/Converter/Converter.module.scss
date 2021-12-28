@@ -1,0 +1,31 @@
+@import "../../styles/variables";
+
+.Converter {
+  display: flex;
+  flex-flow: column;
+  padding: 2rem;
+  margin: 5rem auto 0 auto;
+  max-height: 5rem;
+  width: 90%;
+  background: $shadow;
+  border-radius: 1.5rem;
+  box-shadow: 1px 4px 4px $shadow ;
+  &__label {
+    position: relative;
+    bottom: 6rem;
+    left: -1rem;
+    line-height: 3rem;
+    color: $primary;
+    text-shadow: 2px 2px 2px $shadow;
+  }
+  &-enter {
+    max-height: 5rem;
+  }
+  &-enter-active {
+    max-height: 50rem;
+    transition: all 600ms ease-in;
+  }
+  &-enter-done {
+    max-height: 50rem;
+  }
+}

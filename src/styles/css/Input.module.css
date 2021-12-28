@@ -1,0 +1,17 @@
+/*====== Colors ======*/
+/*$secondary: rgba(150, 150, 150, 0.7);*/
+/*====== Fonts ======*/
+.input {
+  width: auto;
+  height: 5rem;
+  line-height: 3rem;
+  padding: 1rem;
+  margin: -2rem;
+  background: none;
+  color: #ffffff;
+  font-size: 2rem;
+  border: solid 2px #ffffff;
+  border-radius: 1.5rem;
+}
+
+/*# sourceMappingURL=Input.module.css.map */

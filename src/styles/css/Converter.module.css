@@ -1,0 +1,34 @@
+/*====== Colors ======*/
+/*$secondary: rgba(150, 150, 150, 0.7);*/
+/*====== Fonts ======*/
+.Converter {
+  display: flex;
+  flex-flow: column;
+  padding: 2rem;
+  margin: 5rem auto 0 auto;
+  max-height: 5rem;
+  width: 90%;
+  background: rgba(0, 0, 0, 0.7);
+  border-radius: 1.5rem;
+  box-shadow: 1px 4px 4px rgba(0, 0, 0, 0.7);
+}
+.Converter__label {
+  position: relative;
+  bottom: 6rem;
+  left: -1rem;
+  line-height: 3rem;
+  color: #ffffff;
+  text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.7);
+}
+.Converter-enter {
+  max-height: 5rem;
+}
+.Converter-enter-active {
+  max-height: 50rem;
+  transition: all 600ms ease-in;
+}
+.Converter-enter-done {
+  max-height: 50rem;
+}
+
+/*# sourceMappingURL=Converter.module.css.map */

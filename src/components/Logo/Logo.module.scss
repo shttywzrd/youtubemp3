@@ -1,0 +1,23 @@
+@import "../../styles/variables";
+
+.logo {
+  margin-top: 0;
+  margin-bottom: auto;
+  text-align: center;
+  &__text {
+    text-align: center;
+  }
+  &__image {
+    display: block;
+    filter: invert(100%) drop-shadow(0 3px 3px $shadow);
+    -webkit-filter: invert(100%) drop-shadow(0 3px 3px $shadow);
+    width: 20rem;
+    height: 20rem;
+    margin-left: auto;
+    margin-right: auto;
+    &::before {
+      line-height: 20rem;
+    }
+  }
+}
+
