@@ -7,7 +7,7 @@ const cache = new NodeCache();
 
 app.listen(8080, "0.0.0.0" ,() => console.log("listening at 8080"));
 app.use(function (req, res, next) {
-    res.setHeader('Access-Control-Allow-Origin', "*");
+    res.setHeader('Access-Control-Allow-Origin', "http://localhost:3000");
     res.setHeader('Access-Control-Allow-Headers', 'X-Requested-With,content-type');
     next();
 });
