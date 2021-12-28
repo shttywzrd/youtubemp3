@@ -1,0 +1,14 @@
+@import "../../styles/variables";
+
+.input {
+  width: auto;
+  height: 5rem;
+  line-height: $m-font-size * 1.5;
+  padding: 1rem;
+  margin: -2rem;
+  background: none;
+  color: $primary;
+  font-size: $m-font-size;
+  border: solid 2px $primary;
+  border-radius: 1.5rem;
+}

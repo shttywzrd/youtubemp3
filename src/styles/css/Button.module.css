@@ -1,0 +1,38 @@
+/*====== Colors ======*/
+/*$secondary: rgba(150, 150, 150, 0.7);*/
+/*====== Fonts ======*/
+.btn {
+  cursor: pointer;
+  padding: 1rem;
+  font-weight: bold;
+  background: rgba(0, 0, 0, 0.3);
+  border: 3px solid #ffffff;
+  border-radius: 1.5rem;
+  box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.7), 2px 2px 3px rgba(0, 0, 0, 0.7) inset;
+}
+.btn__text {
+  color: #ffffff;
+  font-size: 2rem;
+  text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.7);
+}
+.btn__icon {
+  width: 5rem;
+  height: 5rem;
+  filter: invert(100%) drop-shadow(3px 3px 2px rgba(0, 0, 0, 0.7));
+  -webkit-filter: invert(100%) drop-shadow(3px 3px 2px rgba(0, 0, 0, 0.7));
+}
+.btn:hover {
+  background: rgba(0, 0, 0, 0.4);
+  box-shadow: 0 0 20px 5px rgba(75, 195, 255, 0.5), 2px 2px 3px rgba(0, 0, 0, 0.7) inset;
+}
+
+.extension {
+  padding-bottom: 0.5rem;
+}
+.extension .btn__text {
+  display: block;
+  font-size: 1.4rem;
+  width: 6rem;
+}
+
+/*# sourceMappingURL=Button.module.css.map */

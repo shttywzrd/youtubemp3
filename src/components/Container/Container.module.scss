@@ -1,0 +1,68 @@
+@import "../../styles/variables";
+
+.Container {
+  display: grid;
+  gap: .5rem;
+  grid-template-columns: 250px auto;
+  grid-template-rows: 180px auto;
+  opacity: 0;
+
+  .data {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    color: $primary;
+    gap: .5rem;
+    justify-content: space-between;
+    div {
+      font-size: $s-font-size;
+      padding: 1rem;
+      background: rgb(100,100,100);
+      border-radius: .5rem;
+      text-shadow: $shadow 2px 2px 2px;
+      box-shadow: 2px 2px 3px $shadow, 3px 3px 10px rgba(white, 0.2) inset, -3px -3px 10px rgba(black, 0.2) inset;
+      span {
+        background: $highlight;
+        font-size: $xs-font-size;
+        line-height: $xs-font-size * 1.5;
+        border: $highlight 1px solid;
+        border-radius: 3rem;
+        box-shadow: $shadow 3px 3px 2px;
+        text-shadow: $shadow 1px 1px 1px;
+        padding: 0 .5rem;
+        float: right;
+      }
+      a {
+        color: inherit;
+        text-decoration: none;
+        &:hover {
+          text-shadow: none;
+          color: rgb(75, 195, 255);
+        }
+      }
+    }
+  }
+
+  &-enter-active {
+    opacity: 1;
+    transition: opacity 1s;
+  }
+  &-enter-done {
+    opacity: 1;
+  }
+}
+
+Button {
+  grid-column: 1 / 3;
+  border: none;
+  background: #646464;
+  box-shadow: 2px 2px 3px $shadow, 3px 3px 10px rgba(white, 0.2) inset, -3px -3px 10px rgba(black, 0.2) inset;
+  &:hover {
+    background: #646464;
+    box-shadow: 2px 2px 3px $shadow, 3px 3px 10px rgba(white, 0.2) inset, -3px -3px 10px rgba(black, 0.2) inset;
+  }
+  &:active {
+    background: #646464;
+    box-shadow:  2px 2px 3px $shadow inset;
+  }
+}

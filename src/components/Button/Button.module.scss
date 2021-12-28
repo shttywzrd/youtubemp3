@@ -1,0 +1,37 @@
+@import "../../styles/variables";
+
+.btn {
+  cursor: pointer;
+  padding: 1rem;
+  font-weight: bold;
+  background: rgba(black,.3);
+  border: 3px solid $primary;
+  border-radius: 1.5rem;
+  box-shadow: 2px 2px 3px $shadow, 2px 2px 3px $shadow inset;
+  &__text {
+    color: $primary;
+    font-size: $m-font-size;
+    text-shadow: 2px 2px 2px $shadow;
+  }
+  &__icon {
+    width: 5rem;
+    height: 5rem;
+    filter: invert(100%) drop-shadow(3px 3px 2px $shadow);
+    -webkit-filter: invert(100%) drop-shadow(3px 3px 2px $shadow);
+  }
+  &:hover {
+    background: rgba(black, .4);
+    box-shadow: 0 0 20px 5px $highlight, 2px 2px 3px $shadow inset;
+  }
+}
+
+.extension {
+  padding-bottom: .5rem;
+  .btn__text {
+    display: block;
+    font-size: $xs-font-size;
+    width: 6rem;
+  }
+}
+
+
