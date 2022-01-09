@@ -1,22 +1,26 @@
 import React from 'react';
-import Thumbnail from "../Thumbnail/Thumbnail";
 import {CSSTransition} from "react-transition-group";
 import styles from "./Container.module.scss";
 import Button from "../Button/Button";
-import HttpClient from "../../API/HttpClient";
+import Thumbnail from "../Thumbnail/Thumbnail";
 
 const Container = (props) => {
 
     return (
         <CSSTransition
             in={props.in}
-            timeout={500}
+            timeout={{enter: 500, exit: 300}}
             classNames={{
+                enter: styles["Container-enter"],
                 enterActive: styles["Container-enter-active"],
-                enterDone: styles["Container-enter-done"]
+                enterDone: styles["Container-enter-done"],
+                exit: styles["Container-exit"],
+                exitActive: styles["Container-exit-active"],
+                exitDone: styles["Container-exit-done"]
             }}
+            onExited={props.closeParent}
         >
-            {props.status ? <div className={styles.Container}>
+            <div className={styles.Container}>
                 <a href={props.info["url"]}>
                     <Thumbnail imgSrc={props.info["thumbnail_url"]}/>
                 </a>
@@ -29,10 +33,9 @@ const Container = (props) => {
                         <span>Author</span>
                         <a href={props.info["author_url"]}>{props.info["author_name"]}</a>
                     </div>
-                    <Button onClick={() => HttpClient.requestDownload(props.info)}>Convert</Button>
+                    <Button onClick={props.downloadHandler}>Convert</Button>
                 </div>
-            </div> : <h1>Loading...</h1>
-            }
+            </div>
         </CSSTransition>
     );
 };
