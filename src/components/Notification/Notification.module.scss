@@ -1,0 +1,41 @@
+@import "../../styles/variables";
+
+.Notification {
+  margin: 1em auto;
+  padding: 0.75em 1.5em;
+  border: 2px black solid;
+  border-radius: 1.5rem;
+  box-shadow: 2px 2px 5px $shadow, 2px 2px 5px $shadow inset;
+  color: black;
+  font-weight: bold;
+  text-shadow: 2px 2px 2px black;
+  &-success {
+    color: $danger;
+    border-color: rgba($danger, .5);
+    background-color: rgba($danger, .5);
+  }
+  &-error {
+    color: $danger;
+    border-color: rgba($danger, .5);
+    background-color: rgba($danger, .5);
+
+  }
+  &-info {
+    color: $danger;
+    border-color: rgba($danger, .5);
+    background-color: rgba($danger, .5);
+
+  }
+  &-warning {
+    color: $danger;
+    border-color: rgba($danger, .5);
+    background-color: rgba($danger, .5);
+
+  }
+  &-message {
+    color: $danger;
+    border-color: rgba($danger, .5);
+    background-color: rgba($danger, .5);
+
+  }
+}

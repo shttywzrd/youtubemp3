@@ -1,5 +1,4 @@
 /*====== Colors ======*/
-/*$secondary: rgba(150, 150, 150, 0.7);*/
 /*====== Fonts ======*/
 .Container {
   display: grid;
@@ -14,7 +13,6 @@
   flex-grow: 1;
   color: #ffffff;
   gap: 0.5rem;
-  justify-content: space-between;
 }
 .Container .data div {
   font-size: 1.6rem;
@@ -43,12 +41,25 @@
   text-shadow: none;
   color: #4bc3ff;
 }
+.Container-enter {
+  opacity: 0;
+}
 .Container-enter-active {
   opacity: 1;
   transition: opacity 1s;
 }
 .Container-enter-done {
   opacity: 1;
+}
+.Container-exit {
+  opacity: 1;
+}
+.Container-exit-active {
+  opacity: 0;
+  transition: opacity 0.5s;
+}
+.Container-exit-done {
+  opacity: 0;
 }
 
 Button {

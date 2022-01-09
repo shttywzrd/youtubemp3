@@ -1,0 +1,39 @@
+/*====== Colors ======*/
+/*====== Fonts ======*/
+.Notification {
+  margin: 1em auto;
+  padding: 0.75em 1.5em;
+  border: 2px black solid;
+  border-radius: 1.5rem;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7), 2px 2px 5px rgba(0, 0, 0, 0.7) inset;
+  color: black;
+  font-weight: bold;
+  text-shadow: 2px 2px 2px black;
+}
+.Notification-success {
+  color: #b92d2b;
+  border-color: rgba(185, 45, 43, 0.5);
+  background-color: rgba(185, 45, 43, 0.5);
+}
+.Notification-error {
+  color: #b92d2b;
+  border-color: rgba(185, 45, 43, 0.5);
+  background-color: rgba(185, 45, 43, 0.5);
+}
+.Notification-info {
+  color: #b92d2b;
+  border-color: rgba(185, 45, 43, 0.5);
+  background-color: rgba(185, 45, 43, 0.5);
+}
+.Notification-warning {
+  color: #b92d2b;
+  border-color: rgba(185, 45, 43, 0.5);
+  background-color: rgba(185, 45, 43, 0.5);
+}
+.Notification-message {
+  color: #b92d2b;
+  border-color: rgba(185, 45, 43, 0.5);
+  background-color: rgba(185, 45, 43, 0.5);
+}
+
+/*# sourceMappingURL=Notification.module.css.map */

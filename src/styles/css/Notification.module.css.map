@@ -1,0 +1,1 @@
+{"version":3,"sourceRoot":"","sources":["../_variables.scss","../../components/Notification/Notification.module.scss"],"names":[],"mappings":"AAAA;AAQA;ACNA;EACE;EACA;EACA;EACA;EACA;EACA;EACA;EACA;;AACA;EACE,ODPK;ECQL;EACA;;AAEF;EACE,ODZK;ECaL;EACA;;AAGF;EACE,ODlBK;ECmBL;EACA;;AAGF;EACE,ODxBK;ECyBL;EACA;;AAGF;EACE,OD9BK;EC+BL;EACA","file":"Notification.module.css"}

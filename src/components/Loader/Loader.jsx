@@ -4,7 +4,7 @@ import styles from "./Loader.module.scss";
 const Loader = () => {
     return (
         <div className={styles.Loader}>
-            Loading...
+            <div className={styles.spinner}> </div> Loading...
         </div>
     );
 };

@@ -3,7 +3,7 @@ import axios from "axios";
 export default class HttpClient {
 
     static async get(url) {
-        await new Promise(r => setTimeout(r, 1000));
+        //await new Promise(r => setTimeout(r, 5000));
         const response = await axios.get(url);
         return response.data;
     }

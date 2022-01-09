@@ -1,1 +1,1 @@
-{"version":3,"sourceRoot":"","sources":[],"names":[],"mappings":"","file":"Loader.module.css"}
+{"version":3,"sourceRoot":"","sources":["../../components/Loader/Loader.module.scss"],"names":[],"mappings":"AAAA;EACE;EACA;;AACA;EACE;EACA;EACA;EACA;;AAEF;EACE;;AAEF;EACE;EACA;;AAEF;EACE;;AAEF;EACE;;AAEF;EACE;EACA;;AAEF;EACE","file":"Loader.module.css"}
