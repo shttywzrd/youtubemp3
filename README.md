@@ -7,3 +7,7 @@
 - Node.js / Express.js
 - Axios 
 - SCSS
+### Also used:
+- [noembed](https://noembed.com/) - to get video metadata
+- [youtube-dl](https://youtube-dl.org/) - to download video
+- [ffmpeg](https://www.ffmpeg.org/) - to convert video to mp3 format
